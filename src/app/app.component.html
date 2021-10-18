@@ -1,0 +1,23 @@
+
+<div class="content">
+
+    <h1>{{ title }} app is running!</h1>
+    <br>
+    <input type="number" name="num1" [(ngModel)]="num1">
+    <input type="number" name="num2" [(ngModel)]="num2" >
+    <br><br>
+    <button (click)="add()">ADD</button>
+    <button (click)="sub()">SUB</button>
+    <button (click)="mul()">MULTIPLY</button>
+    <button (click)="div()">DIVIDE</button>
+    <br><br>
+    <h3>Result : {{num3}}</h3>
+    <br><br>
+    
+
+
+    </div>
+
+
+ 
+<router-outlet></router-outlet>

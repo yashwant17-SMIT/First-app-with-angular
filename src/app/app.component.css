@@ -16,3 +16,15 @@
     background-color: rgb(175, 37, 37);
   
   }
+  body{
+    margin: 0;
+    
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+  .example-card {
+    background-color: aqua;
+    max-width: 400px;
+    align-content: center;
+  }
